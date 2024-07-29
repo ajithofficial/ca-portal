@@ -1,19 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import LoginComponent from './components/login';
+import Sidebar from './components/sidebar';
+import LayoutComponent from './pages/layout';
 
 function App() {
   return (
-    <div className="App">
-      
-    {/* <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1> */}
-    <LoginComponent/>
-
-   
-    </div>
+    <LayoutComponent />
   );
 }
 

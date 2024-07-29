@@ -5,7 +5,15 @@ module.exports = {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        'cadarkblue': '#020079',
+        'cablue': '#0013de',
+        'cadeepdark': '#05014a'
+      },
+    },
   },
   plugins: [],
 }
